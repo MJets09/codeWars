@@ -51,6 +51,9 @@ function countSheeps(arrayOfSheeps) {
     return arrayOfSheeps.filter(Boolean).length;
   }
 
+// Explain the solution
+// Filter was used to create a new array and find the boolean true, then we return the length of the array
+
 // Thoughts? Takeaways?
 // Using the filter method never crossed my mind. Once again check for array methods and understand how they work
 // Knowing another tool(filter) would be helpful for future cases. Must spend some time going over multiple methods
