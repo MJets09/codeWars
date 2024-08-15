@@ -6,6 +6,22 @@
 function getMiddle(s)
 {
 
-    
+    if(s % 1) {
+        return 
+    }
 
 }
+
+
+//What did you learn?
+//This one was a tough one, my train of thought was to use the remainder operator
+//into an if else statement then from there return the necessary character
+
+//Best solution?
+
+function getMiddle(s) {
+    var middle = s.length / 2;
+    return (s.length % 2) 
+      ? s.charAt(Math.floor(middle))
+      : s.slice(middle - 1, middle + 1);
+  }
