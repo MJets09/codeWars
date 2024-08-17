@@ -19,8 +19,6 @@ function _if(bool, func1, func2) {
     }
 }
 
-_if(false)
-
 //What did you learn?
 //Was pretty simple, use the if statement with a bool parameter, if statement executes based on bool
 //Remember to call functions "()" when functions are being used

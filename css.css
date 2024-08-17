@@ -1,0 +1,13 @@
+@font-face {
+    font-family: yeezy;
+    src: url(./yeezy_tstar-regular-webfont.ttf);
+}
+
+h1, p{
+    text-align: center;
+}
+body{
+    background-color: mintcream;
+    font-family: yeezy;
+}
+
